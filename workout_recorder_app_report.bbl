@@ -1,0 +1,51 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{abramowitz+stegun}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {{Abramowitz}}{A.}%
+     {Milton}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Stegun}}{S.}%
+     {Irene~A.}{I.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Dover}%
+  }
+  \strng{namehash}{AMSIA1}
+  \strng{fullhash}{AMSIA1}
+  \field{labelyear}{1964}
+  \field{sortinit}{A}
+  \field{edition}{ninth Dover printing, tenth GPO printing}
+  \field{title}{Handbook of Mathematical Functions with Formulas, Graphs, and
+  Mathematical Tables}
+  \list{location}{1}{%
+    {New York}%
+  }
+  \field{year}{1964}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
