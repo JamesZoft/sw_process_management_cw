@@ -34,7 +34,7 @@ The high level requirements of this project are as follows:
 \item Record which workouts are done or gym classes are followed that day
 \item Record progress made and goals achieved per workout
 \item Be able to visualise achivements/goals via graphs or other statistical methods
-\item App is able to upload progress, achievments and goals to a user-made account
+\item App is able to upload progress, achievments and goals to a cloud-based service that the user can access
 \item App is able to work without being connected to the internet
 \item Non-technical and intuitive user interface
 \item Development time of three to six months
@@ -44,11 +44,28 @@ The high level requirements of this project are as follows:
 
 \subsection{Functional Requirements}
 
+The functional requirements for this system will be:
 
+\begin{itemize}
+
+\item User will be able to record the type and number of workouts/gym classes done that day and be able to accept workout types that the app doesn't list from the user via a form or similar
+\item User should be able to record progress (time, distance, crunches done, weight lifted) and tick off goals (ran for 20 minutes, lifted 120lb)
+\item Progress should, after being entered, immediately be available for comparison and dissemination by the user via statistics (graphs, tables etc)
+\item Statistical analysis of progress, achievments and goals should be available for all workouts and exercise types, provided enough information is available
+\item The user should be able to access their workout statistics from anywhere that is able to launch the app via a login system (other android/iOS devices, pc, etc)
+\item The app should (if possible) upload the user's statistics to their user account 
+
+\end{itemize}
 
 \subsection{Non-functional Requirements}
 
+The non-functional requirements for this system will be:
 
+\begin{itemize}
+
+\item 
+
+\end{itemize}
 
 \section{}
 
