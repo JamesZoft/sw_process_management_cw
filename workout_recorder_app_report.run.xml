@@ -81,7 +81,6 @@
       <file>workout_recorder_app_report-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>references.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

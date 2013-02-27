@@ -1,6 +1,11 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Requirements}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{High-level Requirements}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{Functional Requirements}{section.2}% 4
-\BOOKMARK [2][-]{subsection.2.3}{Non-functional Requirements}{section.2}% 5
-\BOOKMARK [1][-]{section.3}{}{}% 6
+\BOOKMARK [1][-]{section.2}{Overview of the product niche and the tasks involved}{}% 2
+\BOOKMARK [1][-]{section.3}{Requirements}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{High-level Requirements}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Functional Requirements}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Non-functional Requirements}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.4}{Noun-Verb analysis}{section.3}% 7
+\BOOKMARK [1][-]{section.4}{Prioritising Requirements Using MoSCoW}{}% 8
+\BOOKMARK [1][-]{section.5}{RUP elaboration}{}% 9
+\BOOKMARK [2][-]{subsection.5.1}{Project scope}{section.5}% 10
+\BOOKMARK [2][-]{subsection.5.2}{Use Cases}{section.5}% 11

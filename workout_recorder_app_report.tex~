@@ -7,7 +7,7 @@
 \usepackage[pdfborder={0 0 0}]{hyperref}
 \usepackage[backend=bibtex, style=authoryear]{biblatex}
 \usepackage[parfill]{parskip}
-\bibliography{references}
+%\bibliography{references}
 \begin{document}
 
 \title{CS4670 Coursework - Workout Recorder App}
@@ -23,6 +23,22 @@
 
 The purpose of this report is to produce a full and complete set of requirements and goals for a workout recorder app, along with a detailed scope and diagrams to support all of this. I will first analyse what the client's reqirements are and how these translate into high level requirements, then break these down into functional and non-functional requirements. I will then use these requirements to produce a set of goals for the system and the needed diagrams (e.g. UML, sequence, collaboration, etc) that will further explore the system. The goal of this report will be such that, when it is finished, a developer or team of developers will be able to take it and build the system it describes.
 
+\section{Overview of the product niche and the tasks involved}
+
+There are a lot of people who go to the gym or do workouts to keep themselves in shape and at points these people will want to know what the progress of their workouts is so that they can feel a sense of achivement and be able to quantify what they're doing. This app will aim to fill that market so that people who do workouts and similar will be able to record and track their accomplishments and decide how they need to adjust their schedules accordingly.
+
+There are three main goals this Workout Recorder App will aim to achieve:
+
+\begin{itemize}
+
+	\item Allow users to record and track workouts they've done
+	\item Allow users to see progress over a time period of workouts
+	\item Help users to improve or more easily adjust their training schedules depending on the results and analysis available with this app
+
+\end{itemize}
+
+These tasks provide the basis for the high-level requirements below, which then are further divided into more specific functional and non-functional requirements. 
+
 \section{Requirements}
 
 \subsection{High-level Requirements}
@@ -31,14 +47,13 @@ The high level requirements of this project are as follows:
 
 \begin{itemize}
 
-\item Record which workouts are done or gym classes are followed that day
-\item Record progress made and goals achieved per workout
-\item Be able to visualise achivements/goals via graphs or other statistical methods
-\item App is able to upload progress, achievments and goals to a cloud-based service that the user can access
-\item App is able to work without being connected to the internet
-\item Non-technical and intuitive user interface
-\item Development time of three to six months
-\item Budget of \pounds20,000-\pounds30,000
+	\item Record which workouts are done or gym classes are followed that day
+	\item Record progress made and goals achieved per workout
+	\item Be able to visualise achivements/goals via graphs or other statistical methods
+	\item App is able to work without being connected to the internet
+	\item Non-technical and intuitive user interface
+	\item Development time of three to six months
+	\item Budget of \pounds20,000-\pounds30,000
 
 \end{itemize}
 
@@ -48,12 +63,14 @@ The functional requirements for this system will be:
 
 \begin{itemize}
 
-\item User will be able to record the type and number of workouts/gym classes done that day and be able to accept workout types that the app doesn't list from the user via a form or similar
-\item User should be able to record progress (time, distance, crunches done, weight lifted) and tick off goals (ran for 20 minutes, lifted 120lb)
-\item Progress should, after being entered, immediately be available for comparison and dissemination by the user via statistics (graphs, tables etc)
-\item Statistical analysis of progress, achievments and goals should be available for all workouts and exercise types, provided enough information is available
-\item The user should be able to access their workout statistics from anywhere that is able to launch the app via a login system (other android/iOS devices, pc, etc)
-\item The app should (if possible) upload the user's statistics to their user account 
+	\item \verb!id:1! User will be able to record the type and number of workouts/gym classes done that day and be able to accept workout types that the app doesn't list from the user via a form or similar
+	\item \verb!id:2! User should be able to record progress (time, distance, crunches done, weight lifted) and tick off goals (ran for 20 minutes, lifted 120lb)
+	\item \verb!id:3! Progress should be able to be recorded in units of the user's choosing (i.e. weight should be able to be recored in lb, kg or stone, etc)	
+	\item \verb!id:4! Progress should, after being entered, immediately be available for comparison and dissemination by the user via statistics (graphs, tables etc)
+	\item \verb!id:5! Statistical analysis of progress, achievments and goals should be available for all workouts and exercise types, provided enough information is available
+	\item \verb!id:6! (Optional) The user should be able to access their workout statistics from anywhere that is able to launch the app via a login system (other android/iOS devices, pc, etc)
+	\item \verb!id:7! (Optional) The app should (if possible) upload the user's statistics to their user account 
+	\item \verb!id:8! (Optional) The app should provide facilities for daily/weekly targets and be able to alert the user if their average exercise so far isn't going to allow them to achieve that (say a user sets up so that they should burn 500kCal by 6pm, it should alert the user if they didn't input in their exercise that amounts to that by 6:15)
 
 \end{itemize}
 
@@ -63,16 +80,89 @@ The non-functional requirements for this system will be:
 
 \begin{itemize}
 
-\item 
+	\item \verb!id:9! The user interface will be non-technical and intuitive
+	\item \verb!id:10! The statistical analysis tools will be easy to disseminate, informative and quick to load (less than 3 seconds to load any particular graph/table/etc)
+	\item \verb!id:11! (Optional) User's data should be easily accessible from anywhere, even if the app is not on the device or pc the user is currently using (maybe via some online login which displays the statistical breakdowns and user data that can be viewed via a browser)
+	\item \verb!id:12! The app should be able to accept new data from the user at any point during its operation
+	\item \verb!id:13! The information the user inputs should (if possible) be able to be converted to different units (e.g. distance ran for x minutes is y kCal)
+	\item \verb!id:14! The app should be able to function without having access to the internet
 
 \end{itemize}
 
-\section{}
+\subsection{Noun-Verb analysis}
+
+The full list of nouns is: user, progress, goal, statistic, graph, achievement, workout, information, user account, target, input, user interface, data, unit
+
+The full list of verbs is: record, tick off, comparison, dissemination, analyse, access, provide, alert, load, accept, convert, function
+
+\section{Prioritising Requirements Using MoSCoW}
+
+The ``must-have" requirements for this project are:
+
+Requirement IDs: 1, 2, 4, 9, 14
+
+The ``should-have" requirements for this project are:
+
+Requirement IDs: 3, 5, 10, 12
+
+The ``could-have" requirements for this project are:
+
+Requirment IDs: 7, 8
+
+The ``won't-have" requirements for this project are:
+
+Requirement IDs: 6, 11, 13
+
+\section{RUP elaboration}
+
+\subsection{Project scope}
+
+The scope for the first release of this project will include the success factors for the release and the requirements that should be included in this first release. This are:
+
+\begin{itemize}
+
+	\item To have not exceeded the budget by more than 5-10\% (exact number decided by the client)
+	\item To have attracted ~10-15\% of the 100,000 customers wanted by the end of the year, in the first month via advertising so that it can be spread more easily by word-of-mouth and similar techniques
+	\item To have all of the 'must-have' and 'should-have' requirements realised in the first release, which are IDs 1, 2, 3, 4, 5, 9, 10, 12 and 14
+	\item Achieve the three main goals of the project
+
+\end{itemize}
+
+\subsection{Use Cases}
+
+\begin{tabular}{ | l || p{10cm} | }
+	
+	\hline
+	Use case ID & 1 \\ \hline
+	Use case name & Entering a new workout \\ \hline
+	Description & User wants to enter a new workout, either pre-defined or custom \\ \hline
+	Pre-conditions & There is either a pre-defined template or form for creating a custom workout \\ \hline
+	Standard path & User chooses standard workout (e.g. running), fills out relevant data, including any targets if the user wishes to set them \\ \hline
+	Alternate path & User chooses non-standard workout (e.g. some unusual martial arts style, etc) and as well as the usual data (name, any targets) the user will
+	have to fill out what units they want to use for the workout and how these units convert into other units (e.g. how many minutes of the workout = x kCals).
+	Alternatively, the user can enter a super-category and the app will work out a rough conversion \\ \hline
+	Post conditions & A new workout is created and is available for use (e.g. viewing, new target setting, etc) \\ \hline
+	Exceptions & All fields of either form for the new workout are not filled out --> Error is thrown and user informed to fill out all necessary fields \\ \hline
+
+\end{tabular}
+
+\begin{tabular}{ | l || p{10cm} | }
+	
+	\hline
+	Use case ID & 2 \\ \hline
+	Use case name & Updating a workout's progress \\ \hline
+	Description & User wants to update a workout's progress for the day/week \\ \hline
+	Pre-conditions &  The workout the user wants to update already exists \\ \hline
+	Standard path & The user opens up or navigates to the workout they want to update. They then input the amount of exercise they did that day (in whatever units they choose) \\ \hline
+	Alternate path &  \\ \hline
+	Post conditions &  \\ \hline
+	Exceptions &  \\ \hline
+
+\end{tabular}
 
 \newpage
-
-\nocite{*}
-\printbibliography[title={Citations}]
+%\nocite{*}
+%\printbibliography[title={Citations}]
 
 \end{document}
 

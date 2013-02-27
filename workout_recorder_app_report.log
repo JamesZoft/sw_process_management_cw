@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=pdflatex 2013.1.17)  17 FEB 2013 19:19
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=pdflatex 2013.1.17)  27 FEB 2013 15:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -522,49 +522,66 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout5 = `workout_recorder_app_report.toc'.
 
  [2]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 34.
+Overfull \hbox (24.67854pt too wide) in paragraph at lines 26--26
+[]\OT1/ptm/b/n/14.4 Overview of the prod-uct niche and the tasks in-volved 
+ []
 
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 34.
 (/usr/share/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
+ [3]
 LaTeX Font Info:    Font shape `OT1/ptm/m/ui' in size <10> not available
-(Font)              Font shape `OT1/ptm/m/it' tried instead on input line 41.
- [3] [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
+(Font)              Font shape `OT1/ptm/m/it' tried instead on input line 56.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 66.
 
-(./workout_recorder_app_report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 77.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 77.
+(/usr/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+) [4] [5]
+Overfull \hbox (56.9268pt too wide) in paragraph at lines 133--148
+[] 
+ []
+
+
+Overfull \hbox (56.9268pt too wide) in paragraph at lines 149--162
+[][] 
+ []
+
+[6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
+ (./workout_recorder_app_report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
 Package rerunfilecheck Info: File `workout_recorder_app_report.out' has not cha
 nged.
-(rerunfilecheck)             Checksum: C07DDDA425CB1B9B20690AEA7E3B6ECE;349.
+(rerunfilecheck)             Checksum: 47E41F289E07F5AFCE159302DF35C822;713.
 Package logreq Info: Writing requests to 'workout_recorder_app_report.run.xml'.
 
 \openout1 = `workout_recorder_app_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 10220 strings out of 493488
- 162469 string characters out of 3146892
- 346184 words of memory out of 3000000
- 13419 multiletter control sequences out of 15000+200000
- 18200 words of font info for 38 fonts, out of 3000000 for 9000
+ 10157 strings out of 493488
+ 161064 string characters out of 3146892
+ 348129 words of memory out of 3000000
+ 13347 multiletter control sequences out of 15000+200000
+ 18715 words of font info for 40 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 35i,6n,51p,812b,768s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,8n,28p,812b,646s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/urw/t
-imes/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/s
-hare/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on workout_recorder_app_report.pdf (5 pages, 51386 bytes).
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/urw/c
+ourier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr
+/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts
+/type1/urw/times/utmri8a.pfb>
+Output written on workout_recorder_app_report.pdf (6 pages, 64270 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 PDF objects out of 1000 (max. 8388607)
+ 99 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
